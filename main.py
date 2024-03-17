@@ -9,7 +9,7 @@ class HabitTracker:
         self.create_days()
 
         # Create widgets
-        self.label = tk.Label(root, text="Enter a new habit:")
+        self.label = tk.Label(root, text="New Habit:")
         self.entry = tk.Entry(root)
         self.add_button = tk.Button(root, text="Add Habit", command=self.add_habit)
         self.listbox = tk.Listbox(root)
